@@ -11,7 +11,7 @@ contract Part_B {
     }
 
     Student s; //Declaring a struct variable
-    Student[] public studentsArray; //Declaring an array of struct
+    Student[] studentsArray; //Declaring an array of struct
 
     function setStudent() public {
         //Setting single student
@@ -22,7 +22,7 @@ contract Part_B {
         return s;
     }
 
-    function setStudent(string memory _name, uint _regNo, bool _isPresent) public {
+    function addStudent(string memory _name, uint _regNo, bool _isPresent) public {
         studentsArray.push(Student(_name, _regNo, _isPresent)); //Setting multiple students
     }
 

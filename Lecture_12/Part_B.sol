@@ -2,7 +2,7 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
-contract Part_A {
+contract Part_B {
     mapping(address => uint256) public balances;
 
     function deposit(uint256 amount) public payable {

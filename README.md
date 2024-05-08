@@ -1,4 +1,3 @@
-* **Solidity**
 * **Lecture_09**
     * Data Types
     * Variables
